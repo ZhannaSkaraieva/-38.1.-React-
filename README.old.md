@@ -43,3 +43,4 @@ npm i web-vitals
 
 7.проверка работоспособности проэста
 npm run start
+
