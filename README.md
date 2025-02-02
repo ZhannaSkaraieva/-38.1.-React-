@@ -68,3 +68,102 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# -38.1.-React-
+
+Мета: Створення базового React проєкту з компонентом кнопки та / або текстового поля.
+
+Постановка задачі:
+
+Ініціалізація проєкту:Використовуючи npx або yarn, створіть новий React проєкт:
+
+З create-react-app: npx create-react-app ваш*проект або yarn create react-app ваш*проект.
+З Vite: npm create vite@latest ваш*проект -- --template react або yarn create vite ваш*проект --template react.
+Перейдіть до каталогу проєкту (cd ваш_проект) та встановіть залежності (npm install або yarn).
+Створення компоненту:
+
+У src/components створіть файл Button.jsx або Input.jsx.
+Реалізуйте компонент, який приймає і використовує props (text і onClick для кнопки, placeholder і onChange для поля введення).
+Використання компоненту:
+
+Імпортуйте та використовуйте ваш компонент у App.js (або App.jsx), передаючи необхідні props.
+Тестування проєкту:
+
+Запустіть проєкт (npm run dev або yarn dev для Vite, npm start або yarn start для create-react-app) та перевірте роботу компонента.
+Вимоги до здачі:
+
+Репозиторій на GitHub з вашим проєктом.
+Всі важливі зміни мають бути видно у історії комітів.
+README.md з інструкціями по запуску проєкту.
+
+1.проверка подключения npx
+npx --v
+
+2. npx create-react-app .  (. ставиться если создается проект в сущ.директории. также в названии диреткории, куда устанавливаем проэкт не должно быть заглавных букв)
+
+3.обновляем  приложение с помощью утилиты Create React App
+npm i create-react-app 
+
+4.изменяем версию react в package.json, package-lock.json
+
+5.инициализируем проэкт 
+npm install
+
+6.исправляем ошибки, путем ручной доустановки компонентов  
+npm i web-vitals
+
+7.проверка работоспособности проэста
+npm run build
+# -38.1.-React-
+
+Мета: Створення базового React проєкту з компонентом кнопки та / або текстового поля.
+
+Постановка задачі:
+
+Ініціалізація проєкту:Використовуючи npx або yarn, створіть новий React проєкт:
+
+З create-react-app: npx create-react-app ваш*проект або yarn create react-app ваш*проект.
+З Vite: npm create vite@latest ваш*проект -- --template react або yarn create vite ваш*проект --template react.
+Перейдіть до каталогу проєкту (cd ваш_проект) та встановіть залежності (npm install або yarn).
+Створення компоненту:
+
+У src/components створіть файл Button.jsx або Input.jsx.
+Реалізуйте компонент, який приймає і використовує props (text і onClick для кнопки, placeholder і onChange для поля введення).
+Використання компоненту:
+
+Імпортуйте та використовуйте ваш компонент у App.js (або App.jsx), передаючи необхідні props.
+Тестування проєкту:
+
+Запустіть проєкт (npm run dev або yarn dev для Vite, npm start або yarn start для create-react-app) та перевірте роботу компонента.
+Вимоги до здачі:
+
+Репозиторій на GitHub з вашим проєктом.
+Всі важливі зміни мають бути видно у історії комітів.
+README.md з інструкціями по запуску проєкту.
+
+1.проверка подключения npx
+npx --v
+
+2. npx create-react-app .  (. ставиться если создается проект в сущ.директории. также в названии диреткории, куда устанавливаем проэкт не должно быть заглавных букв)
+
+3.обновляем  приложение с помощью утилиты Create React App
+npm i create-react-app 
+
+4.изменяем версию react в package.json, package-lock.json
+
+5.инициализируем проэкт 
+npm install
+
+6.исправляем ошибки, путем ручной доустановки компонентов  
+npm i web-vitals
+
+7.проверка работоспособности проэста
+npm run build
+
+8.создание папки src/components 
+  mkdir src/components
+
+  
+9.запуск 
+npm run start
